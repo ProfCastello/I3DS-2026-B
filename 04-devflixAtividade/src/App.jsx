@@ -62,9 +62,7 @@ const App = () => {
           ))}
         </div>
       ) : (
-        <h2 className="empty">
-          😢 Filme não encontrado, pesquise outra vez! 😢
-        </h2>
+        <h2 className="empty">😢 Filme não encontrado 😢</h2>
       )}
 
       <Rodape link={"https://github.com/ProfCastello"}>ProfCastello</Rodape>
