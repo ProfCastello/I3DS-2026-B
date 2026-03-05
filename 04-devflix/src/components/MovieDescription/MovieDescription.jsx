@@ -32,6 +32,7 @@ const MovieDescription = (props) => {
               >
                 ▶️ Assistir
               </a>
+              {props.testeApi}
             </div>
           </div>
         </div>
